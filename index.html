@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -148,12 +149,15 @@
       </div>
     </section>
   </main>
+
+  <main>
   <section class="skills section" id="skills">
     <h2 class="section_title">Skills</h2>
     <span class="section_subtitle">My technical level</span>
     <div class="skills_container container grid">
       <div>
-        <div class="skills_content">
+        <!-- skill1 -->
+        <div class="skills_content skills_open">
           <div class="skills_header">
             <i class="uil uil-brackets-curly skills_icon"></i>
             <div>
@@ -207,9 +211,9 @@
           </div>
         </div>
 
+           <!-- //skill2 -->
 
-
-        <div class="skills_content">
+        <div class="skills_content skills_close">
           <div class="skills_header">
             <i class="uil uil-server-network skills_icon"></i>
             <div>
@@ -267,7 +271,10 @@
 
       </div>
       <div>
-        <div class="skills_content">
+        
+        <!-- skill3 -->
+
+        <div class="skills_content skills_close">
           <div class="skills_header">
             <i class="uil uil-swatchbook skills_icon"></i>
             <div>
@@ -315,8 +322,429 @@
       </div>
     </div>
   </section>
-    
 
+  <section class="qualification section">
+
+    <h2 class="section_title">Qualification</h2>
+    <span class="section_subtitle">My educational journey</span>
+
+    <div class="qualification_container container">
+      <div class="qualification_tabs">
+        <div class="qualification_button button--flex qualification_active" data-target="#education">
+          <i class="uil uil-graduation-cap qualification_icon"></i>
+          Education
+        </div>
+
+        <div class="qualification_button button--flex" data-target="#work">
+          <i class="uil uil-briefcase-alt qualification_icon"></i>
+          Work
+        </div>
+      </div>
+         
+      <div class="qualification_sections">
+       <div class="qualification_content qualification_active" data-content id="education">
+
+          <!-- ****qualification 1 **** -->
+
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Computer Science and Engineering</h3>
+              <span class="qualification_subtitle">Khulna University of Engineering and Technology</span>
+              <div class="qualification_calender">
+                <i class="uil uil-calender-alt"></i>
+                2020-2024
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+             <!-- ****qualification 2 **** -->
+             
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Higher Secondary School</h3>
+              <span class="qualification_subtitle">Holy Cross College</span>
+                <div class="qualification_calender">
+                  <i class="uil uil-calender-alt"></i>
+                    2018-2020
+                </div>
+            </div>
+          </div>
+
+          <!-- ****qualification 3 **** -->
+
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Secenodary School</h3>
+              <span class="qualification_subtitle">siddhewari girls high school</span>
+              <div class="qualification_calender">
+                <i class="uil uil-calender-alt"></i>
+                2012-2018
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+
+          <!-- ****qualification 4 **** -->
+
+          <div class="qualification_data">
+
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Junior School</h3>
+              <span class="qualification_subtitle">siddhewari girls high school</span>
+              <div class="qualification_calender">
+                <i class="uil uil-calender-alt"></i>
+                2012-2018
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+         <!-- qualification content 2 -->
+         <div class="qualification_content" data-content id="work">
+
+          <!-- ****qualification 1 **** -->
+
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Software Enginerring</h3>
+              <span class="qualification_subtitle"> bhugi chugi</span>
+              <div class="qualification_calender">
+                <i class="uil uil-calender-alt"></i>
+                2020-2024
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+          </div>
+             <!-- ****qualification 2 **** -->
+             
+          <div class="qualification_data">
+            <div></div>
+
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">Front end</h3>
+              <span class="qualification_subtitle">bhugi chugi</span>
+                <div class="qualification_calender">
+                  <i class="uil uil-calender-alt"></i>
+                    2018-2020
+                </div>
+            </div>
+          </div>
+
+          <!-- ****qualification 3 **** -->
+
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">ui designer</h3>
+              <span class="qualification_subtitle"> bhugi chugi</span>
+              <div class="qualification_calender">
+                <i class="uil uil-calender-alt"></i>
+                2012-2018
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <!-- <span class="qualification_line"></span> -->
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *****services**** -->
+  <section class="service section" id="services">
+    <h2 class="section_title">Services</h2>
+    <span class="section_subtitle">What i offer</span>
+    <div class="services_container container grid">
+
+    <!-- *****services 1**** -->
+     <div class="services_content">
+      <div>
+        <i class="uil uil-web-grid services_icon"></i>
+        <h3 class="services_title">ui/ux <br>Designer</h3>
+      </div>
+      <span class="button button--flex button--small button--link services_button">
+        View More
+        <i class="uil uil-arrow-right button_icon"></i>
+      </span>
+
+      <div class="services_modal">
+        <div class="services_modal-content">
+          <h4 class="services_modal-title">Ui/Ux<br>designer</h4>
+          <i class="uil uil-times services_modal-close"></i>
+
+          <ul class="services_modal-services grid">
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I develop the user interface</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Web page development</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Ux element interaction</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I position company brand</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+
+     <!-- *****services 2**** -->
+     <div class="services_content">
+      <div>
+        <i class="uil uil-arrow services_icon"></i>
+        <h3 class="services_title">Frontend<br>Developer</h3>
+      </div>
+      <span class="button button--flex button--small button--link services_button">
+        View More
+        <i class="uil uil-arrow-right button_icon"></i>
+      </span>
+
+      <div class="services_modal">
+        <div class="services_modal-content">
+          <h4 class="services_modal-title">Frontend<br>Developer</h4>
+          <i class="uil uil-times services_modal-close"></i>
+
+          <ul class="services_modal-services grid">
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I develop the user interface</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Web page development</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Ux element interaction</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I position company brand</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+     <!-- *****services 3**** -->
+     <div class="services_content">
+      <div>
+        <i class="uil uil-pen services_icon"></i>
+        <h3 class="services_title">branding<br>Designer</h3>
+      </div>
+      <span class="button button--flex button--small button--link services_button">
+        View More
+        <i class="uil uil-arrow-right button_icon"></i>
+      </span>
+
+      <div class="services_modal">
+        <div class="services_modal-content">
+          <h4 class="services_modal-title">branding<br>designer</h4>
+          <i class="uil uil-times services_modal-close"></i>
+
+          <ul class="services_modal-services grid">
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I develop the user interface</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Web page development</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> Ux element interaction</p>
+            </li>
+            <li class="services_modal-services">
+              <i class="uil uil-check-circle services_modal-icon"></i>
+              <p> I position company brand</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>  
+
+   <!-- ***********portfolio******* -->
+
+  <section class="portfolio section" id="portfolio">
+    <h2 class="section_title">Portfolio</h2>
+    <span class="section_subtitle">Most recent work</span>
+
+    <div class="portfolio_container container swiper-container">
+      
+      <div class="swiper-wrapper">
+     
+
+        <!-- ****portfolio 1**** -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="coffee.jpg" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">Object oriented programming</h3>
+            <p class="portfolio_description">A code that can control a coffe machine
+             and response to buyers</p>
+              <a href="#" class="button button--flex button--small portfolio_button">
+                Demo
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+          </div>
+        </div>
+        <!-- ****portfolio 2**** -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="bank.jpg" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">Software Development</h3>
+            <p class="portfolio_description">A java Project to work as a
+              Online Financial service provider
+            </p>
+              <a href="#" class="button button--flex button--small portfolio_button">
+                Demo
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+          </div>
+        </div>
+        <!-- ****portfolio 3**** -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="Catto.png" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">Modern Website</h3>
+            <p class="portfolio_description">websire adaptable to
+              all devices and interactions</p>
+              <a href="#" class="button button--flex button--small portfolio_button">
+                Demo
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+          </div>
+        </div>
+        <!-- **swiperarrows** -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- swiper arrows gula ekhane disilo initially -->
+      
+    </div>
+  </section>
+
+  
+  <!-- *****project in mind***** -->
+
+  <section class="project section">
+     <div class="project_bg">
+      <div class="project_container container grid">
+        <div class="project_data">
+          <h2 class="project_title">you have a new project</h2>
+          <p class="project_description">Contact me now and get work done</p>
+          <a href="#contact" class="button button--flex button--white">
+            Contact me 
+            <i class="'uil uil-message project_icon button_icon"></i>
+          </a>
+        </div>
+         <img src="Catto.png" alt="" class="project_img">
+      </div>
+     </div> 
+  </section>
+
+  <section class="testimonial section">
+    <h2 class="section_title">Testimonial</h2>
+    <span class="section_subtitle">My client saying</span>
+
+    <div class="testimonial_container container swiper-container">
+      <div class="swiper-wrapper">
+        <!-- **div 1** -->
+        <div class="testimonial_content swiper-slide">
+          <div class="testimonial_data">
+            <div class="testimonial_header">
+              <img src="Catto.png" alt="" class="testimonial_img">
+              <div>
+                <h3 class="testimonial_name">Kazi saeed alam sir</h3>
+                <span class="testimonial_client">Client</span>
+              </div>
+            </div>
+            <div>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+            </div>
+          </div>
+          <p class="testimonial_description">she is a average student</p>
+        </div>
+        <!-- **div 2** -->
+        <div class="testimonial_content swiper-slide">
+          <div class="testimonial_data">
+            <div class="testimonial_header">
+              <img src="Catto.png" alt="" class="testimonial_img">
+              <div>
+                <h3 class="testimonial_name">farhan sadaf sir</h3>
+                <span class="testimonial_client">Client</span>
+              </div>
+            </div>
+            <div>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+              <i class="uil uil-star testimonial_icon-star"></i>
+            </div>
+          </div>
+          <p class="testimonial_description">she is a average student</p>
+        </div>
+      </div>
+      <div class="swiper-pagination swiper-pagination-testimonial"></div>
+    </div>
+  </section>
+
+
+  </main>
+
+
+    <script src="swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
